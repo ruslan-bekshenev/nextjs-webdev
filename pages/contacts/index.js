@@ -1,7 +1,9 @@
+import Heading from "../../components/Heading";
+
 const Conctacts = () => {
   return (
     <>
-      <h1>Conctacts list:</h1>
+      <Heading text="Conctacts list:" />
       <p>Lorem ipsum dolor sit amet.</p>
     </>
   )
