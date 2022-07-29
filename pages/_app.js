@@ -6,6 +6,7 @@ const MyApp = ({ Component, pageProps }) => {
   const [showing, setShowing] = useState(false);
 
   useEffect(() => {
+    console.log('1')
     setShowing(true);
   }, []);
 

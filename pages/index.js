@@ -1,8 +1,11 @@
 import Heading from "../components/Heading";
+import styles from '../styles/Home.module.css';
 
 const Home = () => {
   return (
-    <Heading text="Hello world2" />
+    <div className={styles.wrapper}>
+      <Heading text="Hello world2" />
+    </div>
   )
 }
 
